@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Copo de Nieve</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+  <header>
+    <div class="menu" id="menu">
+      <div class="logo">
+        <img src="https://e7.pngegg.com/pngimages/428/190/png-clipart-cottage-computer-icons-house-log-cabin-house-dj-building-logo.png" alt="imagencopo">
+        <h1>Hotel Copo de Nieve</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Cabañas</a></li>
+          <li><a href="#">Galería</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="reserva-button_m">
+        <button type="button">Reserva</button>
+      </div>
+    </div>
+  </header>
+  <div class="texto">
+    <p>VISITANOS</p>
+    <form action="#" method="GET">
+        <input type="text" name="busqueda" placeholder="Buscar...">
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+
+  <div class="slider-box">
+    <ul>
+        <li>
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/274500912.jpg?k=e5e37d1e332a59eef4bacb4600caae44a0a754e5db4a3e0991afb718465f6102&o=&hp=1"  alt="historia1">
+        </li>
+        <li>
+            <img  src="https://www.lodgify.com/blog/wp-content/uploads/2019/11/cabin-1.png"  alt="historia4">
+        </li>
+        <li>
+            <img  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/84/f7/64/bosque-dormido-cabanas.jpg?w=700&h=-1&s=1"  alt="historia2">
+        </li>
+        <li>
+            <img src="https://extranet.marketingelectronicoenturismo.com/storage/hoteles/cabanas-ruisenores/rooms/p1010860-vhfwz.JPG"  alt="historia3">
+        </li>
+    </ul>
+    </div>
+
+      <div class="reserva-container">
+        <div class="reserva-option">
+          <label for="check-in">Check In:</label>
+          <input type="date" id="check-in" name="check-in">
+        </div>
+
+        <div class="reserva-option">
+          <label for="check-out">Check Out:</label>
+          <input type="date" id="check-out" name="check-out">
+        </div>
+
+        <div class="personas">
+          <label for="adultos">Adultos:</label>
+      <input type="number" id="adultos" name="adultos" min="1" value="1">
+      <label for="ninos">Niños:</label>
+      <input type="number" id="ninos" name="ninos" min="0" value="0">
+        </div>
+        <div class="Buscar-button">
+          <button type="button">Buscar</button>
+        </div>
+      </div>
+
+      <div class="tarjetas-container">
+        <div class="tarjeta">
+          <img src="https://mindolago.com.ec/wp-content/uploads/2019/10/yacusi-cabanas-hospedaje-hoteles-mindo-travel-prices4.jpg" alt="Imagen 1">
+          <div class="descripcion">
+            <p>Descripción de la primera tarjeta. Puedes escribir aquí cualquier texto que quieras.</p>
+            <button class="boton-anadir">Añadir</button>
+          </div>
+        </div>
+    
+        <div class="tarjeta">
+          <img src="https://mindo.com.ec/wp-content/uploads/2022/11/cabanias-arbol-gallery-7.jpg" alt="Imagen 2">
+          <div class="descripcion">
+            <p>Descripción de la segunda tarjeta. Puedes escribir aquí cualquier texto que quieras.</p>
+            <button class="boton-anadir">Añadir</button>
+          </div>
+        </div>
+
+        <div class="tarjeta">
+          <img src="https://www.kayak.com.ec/rimg/himg/55/5e/93/expediav2-12669454-8c679498_z-686472.jpg?width=968&height=607&crop=true" alt="Imagen 3">
+          <div class="descripcion">
+            <p>Descripción de la segunda tarjeta. Puedes escribir aquí cualquier texto que quieras.</p>
+            <button class="boton-anadir">Añadir</button>
+          </div>
+        </div>
+
+        <div class="tarjeta">
+          <img src="https://hosteriamandala.info/wp-content/uploads/2022/01/Hosteria-Mandala-Puerto-Lopez-Cabana-Superior-Matri-Triple-Cuarto-PFN_5698.jpg" alt="Imagen 4">
+          <div class="descripcion">
+            <p>Descripción de la segunda tarjeta. Puedes escribir aquí cualquier texto que quieras.</p>
+            <button class="boton-anadir">Añadir</button>
+          </div>
+        </div>
+
+        <div class="tarjeta">
+          <img src="https://mindolago.com.ec/wp-content/uploads/2019/10/yacusi-cabanas-hospedaje-hoteles-mindo-travel-prices4.jpg" alt="Imagen 5">
+          <div class="descripcion">
+            <p>Descripción de la segunda tarjeta. Puedes escribir aquí cualquier texto que quieras.</p>
+            <button class="boton-anadir">Añadir</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="galeria-container">
+        <h1>Galería de Fotos</h1>
+        <div class="galeria">
+          <div class="foto">
+            <img src="https://wl-genial.cf.tsp.li/resize/1200x630/jpg/d58/d4a/8a8bed53bd9361569c12dcd689.jpg" alt="Foto 1">
+          </div>
+          <div class="foto">
+            <img src="https://www.campingpenascosa.com/wp-content/uploads/2020/06/image00008-scaled.jpeg" alt="Foto 2">
+          </div>
+          <div class="foto">
+            <img src="https://media.gq.com.mx/photos/5f74c49fbba9115a3b526d1c/16:9/w_2560%2Cc_limit/CABAN%25CC%2583A.jpg" alt="Foto 3">
+          </div>
+          <div class="foto">
+            <img src="https://www.elmueble.com/medio/2016/12/22/dormitorio-rustico-con-techo-de-vigas-de-madera-armarios-de-madera-y-pared-del-cabecero-con-papel-pintado-que-imita-el-cuero_70ab0bff.jpg" alt="Foto 1">
+          </div>
+          <div class="foto">
+            <img src="https://rincondellago.com/wp-content/uploads/2023/09/DSC_1362.jpg" alt="Foto 2">
+          </div>
+          <div class="foto">
+            <img src="https://extranet.marketingelectronicoenturismo.com/storage/hoteles/cabanas-ruisenores/rooms/p1010860-vhfwz.JPG" alt="Foto 3">
+          </div>
+          <div class="foto">
+            <img src="https://images.trvl-media.com/lodging/25000000/24430000/24420600/24420588/b425b9c9.jpg?impolicy=fcrop&w=608&h=342&p=0.5" alt="Foto 1">
+          </div>
+          <div class="foto">
+            <img src="https://st.focusedcollection.com/14026668/i/650/focused_481497958-stock-photo-young-man-eyes-closed-music.jpg" alt="Foto 2">
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-container">
+          <p>&copy; 2024 Mi Página Web. Todos los derechos reservados WILSON.</p>
+          Designed by
+                    <a href="mailto:kleber.janeta@epn.edu.ec?Subject=Ayuda...!" target="_blank">KDJA</a>
+        </div>
+      </footer>
+    
+  </body>
+</html>
